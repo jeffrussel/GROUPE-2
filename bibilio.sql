@@ -24,3 +24,7 @@ create table Emprunter(
     foreign key (codeEtudiant) references Etudiant (codeEtudiant),
     foreign key (codeLivre) references Livre (codeLivre)
 ) engine = InnoDB default charset = utf8;
+
+(
+
+)
