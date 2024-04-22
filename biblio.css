@@ -1,0 +1,368 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-image: url(images/bookshelf_book_room_library_hd_travel-1366x768.jpg);
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    background-blend-mode: multiply;
+    height: 100%;
+    margin-bottom: 1em;
+}
+
+.head {
+    display: flex;
+    justify-content: end;
+}
+
+.logo {
+    background-color: white;
+    width: 20%;
+    clip-path: circle();
+    height: 15%;
+    display: flex;
+    justify-content: end;
+    align-self: center;
+}
+
+#plume {
+    margin-right: 5em;
+}
+
+.text-accueil {
+    display: flex;
+    font-size: 4em;
+    align-items: center;
+    justify-content: center;
+}
+
+.text,
+.text-menu {
+    filter: brightness(600%);
+    text-transform: capitalize;
+    font-style: italic;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin-top: 3em;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(173, 58, 58, 0.73);
+}
+
+.nav-link:hover {
+    background-color: green;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: multiply;
+    height: 100%;
+    background-image: url(images/IMAGE6.webp);
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-container {
+    width: 30%;
+    height: 100%;
+}
+
+.right-container {
+    width: 70%;
+    height: 100%;
+    color: white;
+}
+
+.redirect-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 3em;
+}
+
+.redirect-link {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: x-large;
+    text-transform: capitalize;
+    text-align: left;
+    border-radius: 5px;
+    width: 49%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 0 0 5px;
+    font-weight: bold;
+}
+
+.redirect-link:hover {
+    color: blue;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+.rightlink1 {
+    display: flex;
+    justify-content: end;
+}
+
+.homelink {
+    text-decoration: none;
+    font-size: x-large;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 1em;
+    color: red;
+    font-weight: bold;
+}
+
+.book {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/stretched-1366-768-1326369\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.bookcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1em;
+    padding: 2em;
+    height: 20%;
+}
+
+.logo1 {
+    color: red;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.booklinks {
+    text-decoration: none;
+    color: wheat;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.booklinks:hover {
+    border-bottom: solid 2px green;
+    transition: 0.5s ease-out;
+    height: 30px;
+}
+
+.down-container {
+    height: 100%;
+}
+
+.emprunter {
+    height: 100%;
+    width: 100%;
+    background-image: url(images/sablier.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.emprunter-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3em;
+}
+
+.emprunter-links {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.emprunterLogo {
+    font-size: 3em;
+    font-weight: bold;
+    background-color: rgba(255, 60, 0, 0.595);
+    border-radius: 6px;
+    padding: 0.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.emprunter-link {
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.end {
+    height: 40%;
+    width: 100%;
+    background-color: rgba(255, 166, 0, 0.318);
+    margin-top: 2em;
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+}
+
+.rights {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.right {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+    margin-right: 8px;
+}
+
+.authorsAndUseless {
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.3em;
+}
+
+.nameslist {
+    list-style-position: inside;
+    margin-top: -0.4em;
+    margin-top: 1em;
+    list-style-type: square;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.name {
+    font-size: large;
+}
+
+@media screen and (min-width: 1px) and (max-width: 360px) {
+    #header {
+        height: 55vh;
+    }
+
+    .text {
+        font-size: xx-large;
+    }
+
+    #plume {
+        margin-right: -3em;
+    }
+
+    .text-menu {
+        display: none;
+    }
+
+    .nav-links {
+        gap: 0.7em;
+    }
+
+    .nav-link {
+        font-size: large;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redirect-links {
+        display: flex;
+        flex-direction: row;
+        margin-left: 1em;
+    }
+
+    .homelink,
+    .studHide {
+        display: none;
+    }
+
+    .bookcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .booklinks {
+        color: white;
+        text-shadow: 2px 1px red;
+    }
+
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .emprunter-header {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    .emprunter-links {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-left: -55px;
+    }
+
+    .emprunter {
+        height: 50vh;
+    }
+
+    .right-container {
+        width: 100%;
+    }
+
+    .left-container {
+        width: 99%;
+        height: 30%;
+    }
+}
